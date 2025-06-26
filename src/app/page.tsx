@@ -142,7 +142,7 @@ export default function Home() {
           {projetos.map((projeto, index) => (
             <a
               key={index}
-              href="{projeto.link}"
+              href={projeto.link}
               target="_blank"
               rel="noopener noreferrer"
               title={projeto.nome}
