@@ -1,11 +1,18 @@
 [
     {
       "nome": "Site Advogado",
-      "imagem": "/silvano-site.png"
+      "imagem": "/silvano-site.png",
+      "link": "https://www.silvanoalmeida.adv.br/"
     },
     {
       "nome": "Blog Pessoal",
-      "imagem": "/silvano-site.png"
+      "imagem": "/silvano-site.png",
+      "link": "https://altplustabb.vercel.app/"
+    },
+    {
+      "nome": "Portifólio",
+      "imagem": "/silvano-site.png",
+      "link": "#"
     }
   ]
   

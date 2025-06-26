@@ -133,32 +133,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Seção Serviços */}
-      <div className="mt-8 py-10 px-4" id="servicos">
-        <p id="title" className="text-xs text-gray-500 dark:text-gray-400 tracking-widest font-semibold mb-4 text-center">SERVIÇOS</p>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {[
-            {
-              titulo: 'Criação de Sites Profissionais',
-              desc: 'Sites rápidos, modernos, responsivos e otimizados para celular e SEO.',
-            },
-            {
-              titulo: 'Sistemas de Gestão',
-              desc: 'Aplicações web personalizadas para controle de clientes, estoque, finanças etc.',
-            },
-            {
-              titulo: 'Landing Pages',
-              desc: 'Páginas de venda otimizadas para captar leads e apresentar produtos/serviços.',
-            },
-          ].map((servico) => (
-            <div key={servico.titulo} className="bg-[--background] text-[--text] p-6 rounded-2xl shadow border border-gray-200 dark:border-gray-700 hover:shadow-lg transition">
-              <h3 className="text-lg font-semibold text-[--foreground] mb-2">{servico.titulo}</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">{servico.desc}</p>
-            </div>
-          ))}
-        </div>
-      </div>
 
       {/* Seção Projetos */}
       <div className="py-10 px-4" id="projetos">
@@ -168,7 +142,7 @@ export default function Home() {
           {projetos.map((projeto, index) => (
             <a
               key={index}
-              href="#"
+              href="{projeto.link}"
               target="_blank"
               rel="noopener noreferrer"
               title={projeto.nome}
