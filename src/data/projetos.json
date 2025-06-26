@@ -6,12 +6,12 @@
     },
     {
       "nome": "Blog Pessoal",
-      "imagem": "/silvano-site.png",
+      "imagem": "/blog-site.png",
       "link": "https://altplustabb.vercel.app/"
     },
     {
       "nome": "Portifólio",
-      "imagem": "/silvano-site.png",
+      "imagem": "/portifolio-site.png",
       "link": "#"
     }
   ]
