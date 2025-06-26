@@ -154,7 +154,7 @@ export default function Home() {
                   alt={`Imagem do projeto ${projeto.nome}`}
                   width={500}
                   height={300}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-48 object-fit"
                 />
                 <div className="p-4">
                   <h3 className="text-lg font-semibold text-gray-800 dark:text-white group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors duration-200">
