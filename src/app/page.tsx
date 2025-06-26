@@ -25,10 +25,10 @@ export default function Home() {
 
         {/* Conteúdo do texto Hero - lado esquerdo */}
         <div className="max-w-xl text-left relative z-10 md:w-1/2">
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight text-white">
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight text-white!">
             Transforme sua ideia em presença digital
           </h1>
-          <p className="text-lg sm:text-xl mb-6 text-gray-300 dark:text-[--text]">
+          <p className="text-lg sm:text-xl mb-6 text-gray-300!">
             Criação de sites e sistemas sob medida para o seu negócio crescer com profissionalismo e tecnologia.
           </p>
           <a
@@ -61,10 +61,10 @@ export default function Home() {
             ].map((servico) => (
               <div
                 key={servico.titulo}
-                className="bg-[rgba(255,255,255,0.15)] dark:bg-[rgba(20,20,20,0.6)] text-white p-4 rounded-xl shadow border border-white/30 hover:shadow-lg transition"
+                className="bg-[rgba(255,255,255,0.15)] dark:bg-[rgba(20,20,20,0.6)] text-white! p-4 rounded-xl shadow border border-white/30 hover:shadow-lg transition"
               >
-                <h3 className="text-md font-semibold mb-1">{servico.titulo}</h3>
-                <p className="text-ls">{servico.desc}</p>
+                <h3 className="text-md font-semibold mb-1 text-white!">{servico.titulo}</h3>
+                <p className="text-ls text-gray-300!">{servico.desc}</p>
               </div>
             ))}
           </div>
